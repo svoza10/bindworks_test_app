@@ -1,0 +1,115 @@
+name: bindworks_test_app
+description: Bindworks test app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+
+  provider: 6.0.5
+
+  intl: 0.18.0
+
+  flutter_svg: 2.0.7
+
+  localstore: 1.3.5
+
+  shared_preferences: 2.2.0
+
+  #https://pub.dev/packages/hive
+  hive: ^2.2.3
+
+  #https://pub.dev/packages/hive_flutter
+  hive_flutter: ^1.1.0
+
+  flutter_secure_storage: ^8.0.0
+
+  #vychazi s flutter_secure_storage, jakorat je obohacena o biometricke udaje
+  biometric_storage: 5.0.0
+
+  local_auth: 2.1.6
+
+  #https://pub.dev/packages/connectivity_plus
+  connectivity_plus: ^4.0.2
+
+  #https://pub.dev/packages/flutter_keyboard_visibility/
+  flutter_keyboard_visibility: ^5.4.1
+
+  #https://pub.dev/packages/fluentui_system_icons
+  fluentui_system_icons: ^1.1.209
+
+
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/localization/en.json
+    - assets/localization/cs.json
+
+  fonts:
+    - family: Biennale
+      fonts:
+        - asset: assets/fonts/Latinotype - Biennale Regular.otf
+          weight: 400
+          style: normal
+        - asset: assets/fonts/Latinotype - Biennale SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Latinotype - Biennale Bold.otf
+          weight: 700
+        - asset: assets/fonts/Latinotype - Biennale Bold.otf
+          weight: 800
+
+flutter_native_splash:
+  background_image: assets/splash/splash.png
+  ios_content_mode: scaleAspectFit
+  web: false
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
